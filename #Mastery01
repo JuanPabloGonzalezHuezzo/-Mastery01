@@ -1,0 +1,13 @@
+# -Mastery01
+#include <iostream>
+using namespace std;
+int main(){
+  int a, b;
+
+  cout << "Que número quieres elevar al cuadrado? " << endl;
+  cin >> a;
+  b=a*a;
+  cout << " el cuadrado de "<< a << " es igual a: " <<b << endl;
+
+return 0;
+}
